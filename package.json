@@ -1,0 +1,19 @@
+{
+  "name": "mkv-to-mp4-electron",
+  "version": "1.0.0",
+  "description": "Simple MKV → MP4 converter with UI (Electron + ffmpeg)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "NodeJS Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "",
+    "@ffprobe-installer/ffprobe": "",
+    "fluent-ffmpeg": ""
+  },
+  "devDependencies": {
+    "electron": ""
+  }
+}

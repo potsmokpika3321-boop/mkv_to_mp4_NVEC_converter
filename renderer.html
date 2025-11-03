@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MKV → MP4 Converter</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>MKV → MP4 Converter</h1>
+    <div class="controls">
+      <button id="btnPick">Pick MKV files</button>
+      <button id="btnConvert" disabled>Convert selected</button>
+      <div class="hint">Or drag & drop files into the box below</div>
+    </div>
+
+    <div id="dropArea" class="drop-area">
+      <p id="dropText">Drop .mkv files here</p>
+      <ul id="fileList"></ul>
+    </div>
+
+    <div id="logArea" class="log-area"></div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
